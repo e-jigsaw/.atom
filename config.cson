@@ -1,0 +1,18 @@
+'editor':
+  'fontSize': 16
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'monokai'
+  ]
+  'disabledPackages': [
+    'autocomplete-plus'
+  ]
+'exception-reporting':
+  'userId': '40d54fc8-612b-82b2-372b-3474335a67e2'
+'release-notes':
+  'viewedVersion': '44f1961'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '244ca7290b482b2db55439c8cd71133e1ffc2fd9'
