@@ -1,0 +1,27 @@
+{
+  "name": "selection-count",
+  "main": "./lib/selection-count",
+  "version": "1.4.0",
+  "description": "Counts selected characters.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iSheeft/char-count"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# Selection count package\n\nAdding character count (when selected) to the atom editor.\n\n![Selection count in action](http://m.UploadEdit.com/b034/1400091768865.gif)\n\nI'm still a beginner to atom so I may have done a lot of things wrong, feel free to tell me so (I'm willing to learn).\n\nHope you'll find it useful though.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/iSheeft/char-count/issues"
+  },
+  "homepage": "https://github.com/iSheeft/char-count",
+  "_id": "selection-count@1.4.0",
+  "dist": {
+    "shasum": "b65b27ad35f3404ea845dc8a06d70e1562916cab"
+  },
+  "_resolved": "/var/folders/g9/7bzd95nx1cs2x0xjdfmwgjhw0000gn/T/d-11454-31809-ywh084/package.tgz",
+  "_from": "/var/folders/g9/7bzd95nx1cs2x0xjdfmwgjhw0000gn/T/d-11454-31809-ywh084/package.tgz"
+}
