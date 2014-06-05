@@ -16,6 +16,11 @@ key | description | state
 `b` | back word   | command
 `g g`     | go to start line | command
 `shift-g` | go to end line   | command
+
+### change mode
+
+key | description          | state
+--- | -------------------- | ---
 `i` | insert current caret | command
 `a` | insert caret next    | command
 `o` | insert next line     | command
