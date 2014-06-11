@@ -36,3 +36,10 @@ key | description          | state
 `d d` | delete line        | command
 `x` | delete cursor char   | command
 `s` | delete cursor char and switch insert mode | command
+
+### shortcuts
+
+key     | description              | state
+------- | ------------------------ | ---
+`cmd-.` | show keybinding resolver | *
+`cmd-,` | open setting pane        | *
