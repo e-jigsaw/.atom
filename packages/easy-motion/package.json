@@ -1,0 +1,35 @@
+{
+  "name": "easy-motion",
+  "main": "./lib/easy-motion",
+  "version": "1.1.0",
+  "description": "MovementSpeed++. Jump to any word in your current view super fast",
+  "activationEvents": [
+    "easy-motion:start",
+    "easy-motion:start-reverse",
+    "easy-motion:start-contextual",
+    "easy-motion:start-contextual-reverse"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrian-budau/easy-motion"
+  },
+  "bugs": {
+    "url": "https://github.com/adrian-budau/easy-motion/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.80.0"
+  },
+  "dependencies": {
+    "underscore-plus": "1.x"
+  },
+  "readme": "# Easy Motion for [Atom](https://atom.io). Speed++\n#### Inspired from [Vim-EasyMotion](https://github.com/Lokaltog/vim-easymotion) by [Kim Silkebækken](https://github.com/Lokaltog).\n\nCheck out that repository to better understand what this plugin does.\n\nTo start easy-motion press **Shift+Cmd+E**. Rebind this in settings to better suit you. By default the characters that replace words are **ABC....Z**. You can replace this if you want, also from settings.\n\nExtra commands:\n* **Shift+Cmd+Y** - same word search except it will match the ending of the word\n\nExtra Features:\n* Pressing **Shift+Cmd+E** or **Shift+Cmd+Y** from within the find-and-replace panel will try using easy motion to match the words on the screen, it's faster than pressing enter many times.\n",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/adrian-budau/easy-motion",
+  "_id": "easy-motion@1.1.0",
+  "dist": {
+    "shasum": "ceb6de8c4ff3353c28bb651c8f1928173e41228d"
+  },
+  "_resolved": "/var/folders/g9/7bzd95nx1cs2x0xjdfmwgjhw0000gn/T/d-11459-44800-1eyofvn/package.tgz",
+  "_from": "/var/folders/g9/7bzd95nx1cs2x0xjdfmwgjhw0000gn/T/d-11459-44800-1eyofvn/package.tgz"
+}

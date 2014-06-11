@@ -1,0 +1,28 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.editor .easy-motion-cover .letter-cover {
+  &.single {
+    color: red;
+  }
+
+  &.many {
+    color: yellow;
+  }
+
+  background-color: @base-background-color;
+}
+
+.easy-motion-input {
+    position: absolute;
+    z-index: -1;
+    width: 0px;
+    height: 0px;
+}
+
+.editor.easy-motion-editor .search-results .marker .region {
+    display: none;
+}
