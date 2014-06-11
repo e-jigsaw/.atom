@@ -19,3 +19,7 @@
 
 '.workspace':
   'cmd-shift-M': 'markdown-preview:toggle'
+
+'.vim-mode:not(.insert-mode)':
+  'm': 'easy-motion:start'
+  'shift-m': 'easy-motion:start-reverse'
