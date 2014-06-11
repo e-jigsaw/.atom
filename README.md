@@ -26,3 +26,10 @@ key | description          | state
 `o` | insert next line     | command
 `v` | visual mode | command
 `esc` | back to command mode | insert, visual
+
+### deletion
+
+key | description          | state
+--- | -------------------- | ---
+`d d` | delete line        | command
+`x` | delete cursor char   | command
