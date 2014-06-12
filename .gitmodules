@@ -1,0 +1,3 @@
+[submodule "packages/git-plus"]
+	path = packages/git-plus
+	url = https://github.com/akonwi/git-plus.git
