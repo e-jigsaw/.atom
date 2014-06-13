@@ -43,3 +43,4 @@ key     | description              | state
 ------- | ------------------------ | ---
 `cmd-.` | show keybinding resolver | *
 `cmd-,` | open setting pane        | *
+`:`     | command palette toggle   | command
