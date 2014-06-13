@@ -4,3 +4,6 @@
 [submodule "packages/vim-mode"]
 	path = packages/vim-mode
 	url = https://github.com/e-jigsaw/vim-mode.git
+[submodule "packages/npm-install"]
+	path = packages/npm-install
+	url = https://github.com/hughsk/atom-npm-install.git
