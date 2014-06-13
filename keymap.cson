@@ -21,6 +21,12 @@
   'cmd-shift-M': 'markdown-preview:toggle'
 
 '.vim-mode:not(.insert-mode)':
+  ':': 'command-palette:toggle'
+
+  # easy motion
   'm': 'easy-motion:start'
   'shift-m': 'easy-motion:start-reverse'
-  ':': 'command-palette:toggle'
+
+  # git
+  'ctrl-g a': 'git-plus:add'
+  'ctrl-g c': 'git-plus:commit'

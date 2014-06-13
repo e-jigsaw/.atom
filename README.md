@@ -44,3 +44,10 @@ key     | description              | state
 `cmd-.` | show keybinding resolver | *
 `cmd-,` | open setting pane        | *
 `:`     | command palette toggle   | command
+
+### git
+
+key        | description              | state
+---------- | ------------------------ | ---
+`ctrl-g a` | git add this file        | command
+`ctrl-g c` | git commit               | command
