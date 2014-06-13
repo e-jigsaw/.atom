@@ -7,6 +7,9 @@
     'atom-dark-ui'
     'monokai'
   ]
+  'disabledPackages': [
+    'go-to-line'
+  ]
 'exception-reporting':
   'userId': '40d54fc8-612b-82b2-372b-3474335a67e2'
 'release-notes':
