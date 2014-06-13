@@ -51,4 +51,5 @@ key        | description              | state
 ---------- | ------------------------ | ---
 `ctrl-g a` | git add this file        | command
 `ctrl-g c` | git commit               | command
+`ctrl-g a a` | git add all and commit | command
 `ctrl-g s` | git status               | command

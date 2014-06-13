@@ -30,4 +30,5 @@
   # git
   'ctrl-g a': 'git-plus:add'
   'ctrl-g c': 'git-plus:commit'
+  'ctrl-g a a': 'git-plus:add-all-and-commit'
   'ctrl-g s': 'fuzzy-finder:toggle-git-status-finder'
