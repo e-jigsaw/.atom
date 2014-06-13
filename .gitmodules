@@ -7,3 +7,6 @@
 [submodule "packages/npm-install"]
 	path = packages/npm-install
 	url = https://github.com/hughsk/atom-npm-install.git
+[submodule "packages/script"]
+	path = packages/script
+	url = https://github.com/rgbkrk/atom-script.git
