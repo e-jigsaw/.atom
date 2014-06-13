@@ -32,3 +32,5 @@
   'ctrl-g c': 'git-plus:commit'
   'ctrl-g a a': 'git-plus:add-all-and-commit'
   'ctrl-g s': 'fuzzy-finder:toggle-git-status-finder'
+  'ctrl-g d': 'git-plus:diff'
+  'ctrl-g shift-d': 'git-plus:diff-all'

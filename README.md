@@ -53,3 +53,5 @@ key        | description              | state
 `ctrl-g c` | git commit               | command
 `ctrl-g a a` | git add all and commit | command
 `ctrl-g s` | git status               | command
+`ctrl-g d` | git diff                 | command
+`ctrl-g shift-d` | git diff all       | command
