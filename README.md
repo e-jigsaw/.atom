@@ -55,3 +55,10 @@ key        | description              | state
 `ctrl-g s` | git status               | command
 `ctrl-g d` | git diff                 | command
 `ctrl-g shift-d` | git diff all       | command
+
+### script
+
+key       | description              | state
+--------- | ------------------------ | ---
+`cmd-r` | run script               | command
+`cmd-shift-r` | close script result pane | command
