@@ -31,9 +31,11 @@
   'ctrl-g a': 'git-plus:add'
   'ctrl-g c': 'git-plus:commit'
   'ctrl-g a a': 'git-plus:add-all-and-commit'
-  'ctrl-g s': 'fuzzy-finder:toggle-git-status-finder'
+  'ctrl-g s': 'git-plus:status'
   'ctrl-g d': 'git-plus:diff'
   'ctrl-g shift-d': 'git-plus:diff-all'
+  'ctrl-g l': 'git-plus:log'
+  'ctrl-g o': 'git-plus:menu'
 
   # script
   'cmd-r': 'script:run'
