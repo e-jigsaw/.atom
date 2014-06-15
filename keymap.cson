@@ -20,6 +20,12 @@
 '.workspace':
   'cmd-shift-M': 'markdown-preview:toggle'
 
+  # pane
+  'ctrl-p l': 'pane:split-left'
+  'ctrl-p r': 'pane:split-right'
+  'ctrl-p [': 'window:focus-previous-pane'
+  'ctrl-p ]': 'window:focus-next-pane'
+
 '.vim-mode:not(.insert-mode)':
   ':': 'command-palette:toggle'
 

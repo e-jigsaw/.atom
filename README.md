@@ -64,3 +64,12 @@ key       | description              | state
 --------- | ------------------------ | ---
 `cmd-r` | run script               | command
 `cmd-shift-r` | close script result pane | command
+
+### pane
+
+key       | description              | state
+--------- | ------------------------ | ---
+`ctrl-p l`| split left               | command
+`ctrl-p r`| split right              | command
+`ctrl-p [`| focus left pane          | command
+`ctrl-p ]`| focus right pane         | command
