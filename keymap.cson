@@ -30,7 +30,7 @@
   # git
   'ctrl-g a': 'git-plus:add'
   'ctrl-g c': 'git-plus:commit'
-  'ctrl-g a a': 'git-plus:add-all-and-commit'
+  'ctrl-g shift-a': 'git-plus:add-all-and-commit'
   'ctrl-g s': 'git-plus:status'
   'ctrl-g d': 'git-plus:diff'
   'ctrl-g shift-d': 'git-plus:diff-all'
