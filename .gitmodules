@@ -13,3 +13,6 @@
 [submodule "packages/language-stylus"]
 	path = packages/language-stylus
 	url = https://github.com/matthojo/language-stylus.git
+[submodule "packages/autocomplete-plus"]
+	path = packages/autocomplete-plus
+	url = https://github.com/saschagehlich/autocomplete-plus.git
