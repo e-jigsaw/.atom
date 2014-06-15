@@ -34,3 +34,6 @@
 [submodule "packages/linter"]
 	path = packages/linter
 	url = https://github.com/AtomLinter/Linter.git
+[submodule "packages/monokai"]
+	path = packages/monokai
+	url = https://github.com/kevinsawicki/monokai.git
