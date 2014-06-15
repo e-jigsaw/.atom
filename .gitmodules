@@ -31,3 +31,6 @@
 [submodule "packages/linter-coffeelint"]
 	path = packages/linter-coffeelint
 	url = https://github.com/AtomLinter/linter-coffeelint.git
+[submodule "packages/linter"]
+	path = packages/linter
+	url = https://github.com/AtomLinter/Linter.git
