@@ -19,6 +19,7 @@
 
 '.workspace':
   'cmd-shift-M': 'markdown-preview:toggle'
+  'cmd-t': 'tree-view:toggle-focus'
 
   # pane
   'ctrl-p l': 'pane:split-left'
