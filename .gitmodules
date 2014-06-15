@@ -22,3 +22,6 @@
 [submodule "packages/easy-motion"]
 	path = packages/easy-motion
 	url = https://github.com/adrian-budau/easy-motion.git
+[submodule "packages/language-docker"]
+	path = packages/language-docker
+	url = https://github.com/jagregory/language-docker.git
