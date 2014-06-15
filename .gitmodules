@@ -10,3 +10,6 @@
 [submodule "packages/git-plus"]
 	path = packages/git-plus
 	url = https://github.com/e-jigsaw/git-plus.git
+[submodule "packages/language-stylus"]
+	path = packages/language-stylus
+	url = https://github.com/matthojo/language-stylus.git
