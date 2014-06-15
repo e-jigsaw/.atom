@@ -7,3 +7,6 @@
 [submodule "packages/script"]
 	path = packages/script
 	url = https://github.com/rgbkrk/atom-script.git
+[submodule "packages/git-plus"]
+	path = packages/git-plus
+	url = https://github.com/e-jigsaw/git-plus.git
