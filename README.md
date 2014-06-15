@@ -55,6 +55,8 @@ key        | description              | state
 `ctrl-g s` | git status               | command
 `ctrl-g d` | git diff                 | command
 `ctrl-g shift-d` | git diff all       | command
+`ctrl-g l` | git log                  | command
+`ctrl-g o` | open git-plus command palette | command
 
 ### script
 
