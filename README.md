@@ -73,3 +73,10 @@ key       | description              | state
 `ctrl-p r`| split right              | command
 `ctrl-p [`| focus left pane          | command
 `ctrl-p ]`| focus right pane         | command
+
+## install
+
+```
+% git clone https://github.com/e-jigsaw/.atom.git
+% coffee install.coffee
+```
