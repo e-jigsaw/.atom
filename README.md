@@ -19,6 +19,13 @@ key | description | state
 `g g`     | go to start line | command
 `shift-g` | go to end line   | command
 
+### selecting
+
+key       | description         | state
+--------- | ------------------- | -------
+`shift-w` | select to next word | command
+`shift-b` | select to beginning word | command
+
 ### change mode
 
 key | description          | state

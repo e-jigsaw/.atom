@@ -29,6 +29,8 @@
 
 '.vim-mode:not(.insert-mode)':
   ':': 'command-palette:toggle'
+  'shift-w': 'editor:select-to-end-of-word'
+  'shift-b': 'editor:select-to-beginning-of-word'
 
   # easy motion
   'm': 'easy-motion:start'
