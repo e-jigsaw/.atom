@@ -52,6 +52,14 @@ key     | description              | state
 `cmd-,` | open setting pane        | *
 `:`     | command palette toggle   | command
 
+### tree-view
+
+key | description          | state
+--- | -------------------- | ---
+`a` | add file             | tree-view
+`shift-a` | add folder     | tree-view
+`m` | move to pointed file | tree-view
+
 ### git
 
 key        | description              | state
