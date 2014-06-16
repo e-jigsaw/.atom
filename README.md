@@ -69,11 +69,11 @@ key       | description              | state
 
 key       | description              | state
 --------- | ------------------------ | ---
-`ctrl-p l`| split left               | command
-`ctrl-p r`| split right              | command
-`ctrl-p [`| focus left pane          | command
-`ctrl-p ]`| focus right pane         | command
-`cmd-t`   | focus tree-view          | command
+`ctrl-p l`| split left               | *
+`ctrl-p r`| split right              | *
+`ctrl-p [`| focus left pane          | *
+`ctrl-p ]`| focus right pane         | *
+`cmd-t`   | focus tree-view          | *
 
 ## install
 
