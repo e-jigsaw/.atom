@@ -22,8 +22,10 @@
   'cmd-t': 'tree-view:toggle-focus'
 
   # pane
-  'ctrl-p l': 'pane:split-left'
-  'ctrl-p r': 'pane:split-right'
+  'ctrl-p h': 'pane:split-left'
+  'ctrl-p l': 'pane:split-right'
+  'ctrl-p j': 'pane:split-up'
+  'ctrl-p k': 'pane:split-down'
   'ctrl-p [': 'window:focus-previous-pane'
   'ctrl-p ]': 'window:focus-next-pane'
 

@@ -84,8 +84,10 @@ key       | description              | state
 
 key       | description              | state
 --------- | ------------------------ | ---
-`ctrl-p l`| split left               | *
-`ctrl-p r`| split right              | *
+`ctrl-p h`| split left               | *
+`ctrl-p l`| split right              | *
+`ctrl-p j`| split up                 | *
+`ctrl-p k`| split down               | *
 `ctrl-p [`| focus left pane          | *
 `ctrl-p ]`| focus right pane         | *
 `cmd-t`   | focus tree-view          | *
