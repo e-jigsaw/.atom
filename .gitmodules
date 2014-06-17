@@ -43,3 +43,6 @@
 [submodule "packages/autocomplete-paths"]
 	path = packages/autocomplete-paths
 	url = https://github.com/saschagehlich/autocomplete-paths.git
+[submodule "packages/file-icons"]
+	path = packages/file-icons
+	url = https://github.com/DanBrooker/file-icons.git
