@@ -37,3 +37,9 @@
 [submodule "packages/monokai"]
 	path = packages/monokai
 	url = https://github.com/kevinsawicki/monokai.git
+[submodule "packages/coffee-compiler"]
+	path = packages/coffee-compiler
+	url = https://github.com/forabi/coffee-compiler.git
+[submodule "packages/autocomplete-paths"]
+	path = packages/autocomplete-paths
+	url = https://github.com/saschagehlich/autocomplete-paths.git
