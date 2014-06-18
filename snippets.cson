@@ -13,3 +13,7 @@
 #     'prefix': 'log'
 #     'body': 'console.log $1'
 #
+'.source.coffee':
+  'require':
+    'prefix': 'req'
+    'body': '${1:sys} = require \'${2:sys}\'$3'
