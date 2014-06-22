@@ -46,3 +46,6 @@
 [submodule "packages/file-icons"]
 	path = packages/file-icons
 	url = https://github.com/DanBrooker/file-icons.git
+[submodule "packages/command-logger"]
+	path = packages/command-logger
+	url = https://github.com/kevinsawicki/command-logger.git
