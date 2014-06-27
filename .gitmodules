@@ -49,3 +49,6 @@
 [submodule "packages/ghq"]
 	path = packages/ghq
 	url = https://github.com/syohex/atom-ghq.git
+[submodule "packages/linter-coffeelint"]
+	path = packages/linter-coffeelint
+	url = https://github.com/e-jigsaw/linter-coffeelint.git
