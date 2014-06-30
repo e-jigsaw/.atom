@@ -49,6 +49,3 @@
 [submodule "packages/seti-ui"]
 	path = packages/seti-ui
 	url = https://github.com/jesseweed/seti-ui.git
-[submodule "packages/ghq"]
-	path = packages/ghq
-	url = https://github.com/syohex/atom-ghq.git
