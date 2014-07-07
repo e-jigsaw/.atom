@@ -26,6 +26,10 @@
   }
 }
 
+.panes .pane .item-views {
+  margin-bottom: 26px;
+}
+
 .editor .cursor {
   border-width: medium;
   border-color: #e7e7e7;
@@ -70,4 +74,53 @@
 .status-bar-vim-mode-command {
   color: #FFF;
   background-color: #4f99d3;
+}
+
+.tab-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  background: #101112;
+  height: 26px;
+  line-height: 26px;
+}
+
+.tab-bar .tab.active {
+  border-bottom: 0;
+  background-color: #4f99d3;
+  height: 26px;
+  line-height: 26px;
+  color: #FFFFFF;
+
+  &:before {
+    border-bottom: 0;
+    background-color: #4f99d3;
+  }
+}
+
+.tab-bar .tab {
+  border-bottom: 0;
+  background-color: #357092;
+  height: 26px;
+  line-height: 26px;
+  font-size: 16px;
+
+  &:before {
+    border-bottom: 0;
+    background-color: #357092;
+  }
+}
+
+.tab-bar .tab.active .close-icon, .tab-bar .tab .close-icon {
+  line-height: 26px;
+}
+
+.tab-bar .tab.active .close-icon {
+  color: #ffffff;
+}
+
+.tab-bar .tab.modified:not(:hover) .close-icon {
+  border: 2px solid #ffffff;
+  top: 13px;
 }
