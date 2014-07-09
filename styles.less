@@ -66,14 +66,114 @@
   background-color: #000 !important;
 }
 
-.status-bar-vim-mode-insert {
+#status-bar-vim-mode {
   color: #FFF;
+  position: relative;
+  z-index: 5;
+}
+
+.status-bar-vim-mode-insert {
   background-color: #F00;
+
+  &:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #F00;
+    border-width: 11px;
+    margin-top: -11px;
+  }
 }
 
 .status-bar-vim-mode-command {
-  color: #FFF;
   background-color: #4f99d3;
+
+  &:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #4f99d3;
+    border-width: 11px;
+    margin-top: -11px;
+  }
+}
+
+.git-branch {
+  color: #FFF;
+  position: relative;
+  left: -10px;
+  padding-left: 14px;
+  background-color: #d650bd;
+  z-index: 4;
+
+  &:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #d650bd;
+    border-width: 11px;
+    margin-top: -11px;
+  }
+}
+
+.git-status {
+  position: relative;
+  left: -20px;
+  padding-left: 14px;
+  background-color: #8b8b8b;
+  z-index: 3;
+
+  &:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #8b8b8b;
+    border-width: 11px;
+    margin-top: -11px;
+  }
+}
+
+.cursor-position {
+  color: #FFF;
+  position: relative;
+  left: -20px;
+  padding-left: 14px;
+  background-color: #52dc6b;
+  z-index: 2;
+
+  &:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #52dc6b;
+    border-width: 11px;
+    margin-top: -11px;
+  }
 }
 
 .tab-bar {
