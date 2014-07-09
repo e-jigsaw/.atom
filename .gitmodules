@@ -55,3 +55,6 @@
 [submodule "packages/dict-en2ja"]
 	path = packages/dict-en2ja
 	url = https://github.com/e-jigsaw/dict-en2ja.git
+[submodule "packages/status-bar"]
+	path = packages/status-bar
+	url = https://github.com/e-jigsaw/status-bar.git
