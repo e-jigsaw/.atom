@@ -25,6 +25,7 @@ key       | description         | state
 --------- | ------------------- | -------
 `shift-w` | select to next word | command
 `shift-b` | select to beginning word | command
+`cmd-d`   | select word | *
 
 ### change mode
 
@@ -91,6 +92,12 @@ key       | description              | state
 `ctrl-p [`| focus left pane          | *
 `ctrl-p ]`| focus right pane         | *
 `cmd-t`   | focus tree-view          | *
+
+### switch window
+
+key         | description              | state
+----------- | ------------------------ | ---
+`ctrl-space`| toggle ghq               | *
 
 ## install
 

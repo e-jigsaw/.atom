@@ -26,6 +26,10 @@
   }
 }
 
+.panes .pane .item-views {
+  margin-bottom: 26px;
+}
+
 .editor .cursor {
   border-width: medium;
   border-color: #e7e7e7;
@@ -62,12 +66,143 @@
   background-color: #000 !important;
 }
 
-.status-bar-vim-mode-insert {
+#status-bar-vim-mode {
   color: #FFF;
+  position: relative;
+  z-index: 5;
+}
+
+.status-bar-vim-mode-insert {
   background-color: #F00;
+
+  &:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #F00;
+    border-width: 11px;
+    margin-top: -11px;
+  }
 }
 
 .status-bar-vim-mode-command {
-  color: #FFF;
   background-color: #4f99d3;
+
+  &:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #4f99d3;
+    border-width: 11px;
+    margin-top: -11px;
+  }
+}
+
+.git-view {
+  color: #FFF;
+  position: relative;
+  left: -10px;
+  padding-left: 14px;
+  background-color: #85317f;
+  z-index: 4;
+
+  &:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #85317f;
+    border-width: 11px;
+    margin-top: -11px;
+  }
+}
+
+.cursor-position {
+  color: #FFF;
+  position: relative;
+  left: -12px;
+  padding-left: 14px;
+  background-color: #369343;
+  z-index: 2;
+
+  &:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #369343;
+    border-width: 11px;
+    margin-top: -11px;
+  }
+}
+
+.tab-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  background: #101112;
+  height: 26px;
+  line-height: 26px;
+}
+
+.tab-bar .tab.active {
+  border-bottom: 0;
+  background-color: #4f99d3;
+  height: 26px;
+  line-height: 26px;
+  color: #FFFFFF;
+
+  &:before {
+    border-bottom: 0;
+    background-color: #4f99d3;
+  }
+}
+
+.tab-bar .tab {
+  border-bottom: 0;
+  background-color: #357092;
+  height: 26px;
+  line-height: 26px;
+  font-size: 16px;
+
+  &:before {
+    border-bottom: 0;
+    background-color: #357092;
+  }
+}
+
+.tab-bar .tab.active .close-icon, .tab-bar .tab .close-icon {
+  line-height: 26px;
+}
+
+.tab-bar .tab.active .close-icon {
+  color: #ffffff;
+}
+
+.tab-bar .tab.modified:not(:hover) .close-icon {
+  border: 2px solid #ffffff;
+  top: 13px;
+}
+
+.file-info {
+  display: none;
 }

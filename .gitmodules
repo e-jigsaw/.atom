@@ -7,9 +7,6 @@
 [submodule "packages/script"]
 	path = packages/script
 	url = https://github.com/rgbkrk/atom-script.git
-[submodule "packages/git-plus"]
-	path = packages/git-plus
-	url = https://github.com/e-jigsaw/git-plus.git
 [submodule "packages/language-stylus"]
 	path = packages/language-stylus
 	url = https://github.com/matthojo/language-stylus.git
@@ -48,7 +45,16 @@
 	url = https://github.com/jesseweed/seti-ui.git
 [submodule "packages/ghq"]
 	path = packages/ghq
-	url = https://github.com/syohex/atom-ghq.git
+	url = https://github.com/e-jigsaw/atom-ghq.git
+[submodule "packages/git-plus"]
+	path = packages/git-plus
+	url = https://github.com/akonwi/git-plus.git
 [submodule "packages/linter-coffeelint"]
 	path = packages/linter-coffeelint
 	url = https://github.com/e-jigsaw/linter-coffeelint.git
+[submodule "packages/dict-en2ja"]
+	path = packages/dict-en2ja
+	url = https://github.com/e-jigsaw/dict-en2ja.git
+[submodule "packages/status-bar"]
+	path = packages/status-bar
+	url = https://github.com/e-jigsaw/status-bar.git
