@@ -58,3 +58,6 @@
 [submodule "packages/status-bar"]
 	path = packages/status-bar
 	url = https://github.com/e-jigsaw/status-bar.git
+[submodule "packages/cut-line"]
+	path = packages/cut-line
+	url = https://github.com/tekkub/cut-line.git
