@@ -64,3 +64,6 @@
 [submodule "packages/japanese-wrap"]
 	path = packages/japanese-wrap
 	url = https://github.com/raccy/japanese-wrap.git
+[submodule "packages/atom-sublime-select"]
+	path = packages/atom-sublime-select
+	url = https://github.com/bigfive/atom-sublime-select.git
