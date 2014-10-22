@@ -1,22 +1,23 @@
-'editor':
-  'fontSize': 16
-  'showIndentGuide': true
-  'showInvisibles': true
-'core':
-  'themes': [
-    'seti-ui'
-    'monokai'
-  ]
-  'disabledPackages': [
-    'go-to-line'
-    'symbols-view'
-    'autocomplete'
-  ]
-'exception-reporting':
-  'userId': '40d54fc8-612b-82b2-372b-3474335a67e2'
-'release-notes':
-  'viewedVersion': '4155c53'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': '244ca7290b482b2db55439c8cd71133e1ffc2fd9'
+'global':
+  'editor':
+    'showIndentGuide': true
+    'showInvisibles': true
+    'invisibles': {}
+  'core':
+    'themes': [
+      'seti-ui'
+      'monokai'
+    ]
+    'disabledPackages': [
+      'go-to-line'
+      'symbols-view'
+      'autocomplete'
+    ]
+  'exception-reporting':
+    'userId': '40d54fc8-612b-82b2-372b-3474335a67e2'
+  'release-notes':
+    'viewedVersion': '4155c53'
+  'welcome':
+    'showOnStartup': false
+  'metrics':
+    'userId': '244ca7290b482b2db55439c8cd71133e1ffc2fd9'
