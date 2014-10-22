@@ -52,3 +52,6 @@
   # script
   'cmd-r': 'script:run'
   'cmd-shift-r': 'script:close-view'
+
+  # override
+  'shift-cmd-C': 'color-picker:open'
