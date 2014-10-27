@@ -21,3 +21,5 @@
     'showOnStartup': false
   'metrics':
     'userId': '244ca7290b482b2db55439c8cd71133e1ffc2fd9'
+  'easy-motion':
+    'replaceCharacters': 'ASDFGQWERTYZXCVB12345'
