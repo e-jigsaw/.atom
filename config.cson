@@ -1,9 +1,7 @@
 'global':
   'editor':
-    'fontSize': 16
     'showIndentGuide': true
     'showInvisibles': true
-    'invisibles': {}
   'core':
     'themes': [
       'seti-ui'
@@ -18,9 +16,9 @@
     'viewedVersion': '4155c53'
   'easy-motion':
     'replaceCharacters': 'ASDFGQWERTYZXCVB12345'
-'exception-reporting':
-  'userId': '40d54fc8-612b-82b2-372b-3474335a67e2'
-'welcome':
-  'showOnStartup': false
+  'exception-reporting':
+    'userId': '40d54fc8-612b-82b2-372b-3474335a67e2'
+  'welcome':
+    'showOnStartup': false
 'metrics':
   'userId': '244ca7290b482b2db55439c8cd71133e1ffc2fd9'
