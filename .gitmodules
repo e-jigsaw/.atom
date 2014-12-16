@@ -67,6 +67,9 @@
 [submodule "packages/atom-sublime-select"]
 	path = packages/atom-sublime-select
 	url = https://github.com/bigfive/atom-sublime-select.git
+[submodule "packages/language-haskell"]
+	path = packages/language-haskell
+	url = https://github.com/jroesch/language-haskell.git
 [submodule "packages/fixmyjs"]
 	path = packages/fixmyjs
 	url = https://github.com/sindresorhus/atom-fixmyjs.git
