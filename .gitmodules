@@ -76,3 +76,6 @@
 [submodule "packages/language-scala"]
 	path = packages/language-scala
 	url = https://github.com/jroesch/language-scala
+[submodule "packages/atom-beautify"]
+	path = packages/atom-beautify
+	url = https://github.com/Glavin001/atom-beautify.git
