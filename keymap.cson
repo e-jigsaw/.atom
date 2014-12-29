@@ -22,13 +22,16 @@
   'cmd-t': 'tree-view:toggle-focus'
   'ctrl-space': 'ghq:toggle'
 
+
   # pane
-  'ctrl-p h': 'pane:split-left'
-  'ctrl-p l': 'pane:split-right'
-  'ctrl-p j': 'pane:split-up'
-  'ctrl-p k': 'pane:split-down'
+  'ctrl-p d': 'pane:split-down'
+  'ctrl-p shift-d': 'pane:split-right'
   'ctrl-p [': 'window:focus-previous-pane'
   'ctrl-p ]': 'window:focus-next-pane'
+  'ctrl-p j': 'window:focus-pane-below'
+  'ctrl-p k': 'window:focus-pane-above'
+  'ctrl-p h': 'window:focus-pane-on-left'
+  'ctrl-p l': 'window:focus-pane-on-right'
 
 '.vim-mode:not(.insert-mode)':
   ':': 'command-palette:toggle'
