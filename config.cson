@@ -4,8 +4,8 @@
     'showInvisibles': true
     'fontFamily': 'Monaco'
     'fontSize': 18
-    'invisibles': {}
     'autoIndentOnPaste': false
+    'invisibles': {}
   'core':
     'themes': [
       'seti-ui'
