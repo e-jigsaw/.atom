@@ -1,9 +1,6 @@
 [submodule "packages/vim-mode"]
 	path = packages/vim-mode
 	url = https://github.com/e-jigsaw/vim-mode.git
-[submodule "packages/npm-install"]
-	path = packages/npm-install
-	url = https://github.com/hughsk/atom-npm-install.git
 [submodule "packages/script"]
 	path = packages/script
 	url = https://github.com/rgbkrk/atom-script.git
@@ -52,9 +49,6 @@
 [submodule "packages/linter-coffeelint"]
 	path = packages/linter-coffeelint
 	url = https://github.com/e-jigsaw/linter-coffeelint.git
-[submodule "packages/dict-en2ja"]
-	path = packages/dict-en2ja
-	url = https://github.com/e-jigsaw/dict-en2ja.git
 [submodule "packages/status-bar"]
 	path = packages/status-bar
 	url = https://github.com/e-jigsaw/status-bar.git
