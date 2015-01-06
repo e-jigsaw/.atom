@@ -8,11 +8,7 @@
  * http://www.lesscss.org
  */
 
-.tree-view {
-
-}
-
-.editor {
+atom-text-editor::shadow {
   .cursor-line {
     background-color: #424242;
   }
@@ -24,49 +20,35 @@
   .comment {
     color: #16e63b;
   }
-}
 
-.panes .pane .item-views {
-  margin-bottom: 26px;
-}
+  .cursor {
+    border-width: medium;
+    border-color: #e7e7e7;
+  }
 
-.editor .cursor {
-  border-width: medium;
-  border-color: #e7e7e7;
-}
+  .gutter {
+    background-color: #1e1e1e;
+  }
 
-.status-bar {
-  font-size: 18px;
-}
-
-.feedback-status {
-  display: none;
-}
-
-.overlay {
-  .text-info {
-    color: #efe527;
+  .easy-motion-cover .letter-cover {
+    background-color: #000 !important;
   }
 }
 
-.editor .gutter {
-  background-color: #1e1e1e;
+atom-panel-container .status-bar {
+  font-size: 18px;
 }
 
-.editor.editor-colors.mini.is-focused {
+atom-text-editor .editor.editor-colors.mini.is-focused {
   background-color: #333;
   color: #fff;
 }
 
-.editor.mini {
+atom-text-editor .editor.mini {
   background-color: #111;
 }
 
-.editor .easy-motion-cover .letter-cover {
-  background-color: #000 !important;
-}
-
-#status-bar-vim-mode {
+atom-panel-container #status-bar-vim-mode {
   color: #FFF;
   position: relative;
   z-index: 5;
@@ -184,7 +166,7 @@
   z-index: 1;
   background: #101112;
   height: 26px;
-  line-height: 26px;
+  line-height: 34px;
   border-bottom: 0;
 }
 
@@ -192,7 +174,7 @@
   border-bottom: 0;
   background-color: #4f99d3;
   height: 26px;
-  line-height: 26px;
+  line-height: 34px;
   color: #FFFFFF;
 
   &:before {
@@ -206,7 +188,7 @@
   border-bottom: 0;
   background-color: #357092;
   height: 26px;
-  line-height: 26px;
+  line-height: 34px;
   font-size: 16px;
 
   &:before {
@@ -216,16 +198,20 @@
   }
 }
 
+.tab-bar .tab .title.icon-tools {
+  top: -2px;
+}
+
 .tab-bar .tab.active .close-icon, .tab-bar .tab .close-icon {
   line-height: 26px;
 }
 
 .tab-bar .tab.active .close-icon {
-  color: #ffffff;
+  color: #fff;
 }
 
 .tab-bar .tab.modified:not(:hover) .close-icon {
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
   top: 13px;
 }
 
