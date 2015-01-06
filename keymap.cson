@@ -17,44 +17,46 @@
 #   'ctrl-p': 'core:move-down'
 #
 
-'.workspace':
-  'cmd-shift-M': 'markdown-preview:toggle'
-  'cmd-t': 'tree-view:toggle-focus'
-  'ctrl-space': 'ghq:toggle'
+'.platform-darwin':
+  'cmd-shift-c': 'unset!'
 
+'.platform-darwin .editor':
+  'cmd-shift-c': 'unset!'
+
+'.workspace':
+  'cmd-shift-M' : 'markdown-preview:toggle'
+  'cmd-t'       : 'tree-view:toggle-focus'
+  'ctrl-space'  : 'ghq:toggle'
 
   # pane
-  'ctrl-p d': 'pane:split-down'
-  'ctrl-p shift-d': 'pane:split-right'
-  'ctrl-p [': 'window:focus-previous-pane'
-  'ctrl-p ]': 'window:focus-next-pane'
-  'ctrl-p j': 'window:focus-pane-below'
-  'ctrl-p k': 'window:focus-pane-above'
-  'ctrl-p h': 'window:focus-pane-on-left'
-  'ctrl-p l': 'window:focus-pane-on-right'
+  'ctrl-p d'       : 'pane:split-down'
+  'ctrl-p shift-d' : 'pane:split-right'
+  'ctrl-p ['       : 'window:focus-previous-pane'
+  'ctrl-p ]'       : 'window:focus-next-pane'
+  'ctrl-p j'       : 'window:focus-pane-below'
+  'ctrl-p k'       : 'window:focus-pane-above'
+  'ctrl-p h'       : 'window:focus-pane-on-left'
+  'ctrl-p l'       : 'window:focus-pane-on-right'
 
 '.vim-mode:not(.insert-mode)':
-  ':': 'command-palette:toggle'
-  'shift-w': 'editor:select-to-end-of-word'
-  'shift-b': 'editor:select-to-beginning-of-word'
+  ':'       : 'command-palette:toggle'
+  'shift-w' : 'editor:select-to-end-of-word'
+  'shift-b' : 'editor:select-to-beginning-of-word'
 
   # easy motion
-  'm': 'easy-motion:start'
-  'shift-m': 'easy-motion:start-reverse'
+  'm'       : 'easy-motion:start'
+  'shift-m' : 'easy-motion:start-reverse'
 
   # git
-  'ctrl-g a': 'git-plus:add'
-  'ctrl-g c': 'git-plus:commit'
-  'ctrl-g shift-a': 'git-plus:add-all-and-commit'
-  'ctrl-g s': 'git-plus:status'
-  'ctrl-g d': 'git-plus:diff'
-  'ctrl-g shift-d': 'git-plus:diff-all'
-  'ctrl-g l': 'git-plus:log'
-  'ctrl-g o': 'git-plus:menu'
+  'ctrl-g a'       : 'git-plus:add'
+  'ctrl-g c'       : 'git-plus:commit'
+  'ctrl-g shift-a' : 'git-plus:add-all-and-commit'
+  'ctrl-g s'       : 'git-plus:status'
+  'ctrl-g d'       : 'git-plus:diff'
+  'ctrl-g shift-d' : 'git-plus:diff-all'
+  'ctrl-g l'       : 'git-plus:log'
+  'ctrl-g o'       : 'git-plus:menu'
 
   # script
-  'cmd-r': 'script:run'
-  'cmd-shift-r': 'script:close-view'
-
-  # override
-  'shift-cmd-C': 'color-picker:open'
+  'cmd-r'       : 'script:run'
+  'cmd-shift-r' : 'script:close-view'
