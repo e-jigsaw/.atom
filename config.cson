@@ -1,20 +1,20 @@
-'global':
+'*':
   'editor':
-    'showIndentGuide': true
-    'showInvisibles': true
     'fontFamily': 'Monaco'
     'fontSize': 18
+    'showInvisibles': true
+    'showIndentGuide': true
     'autoIndentOnPaste': false
     'invisibles': {}
   'core':
-    'themes': [
-      'seti-ui'
-      'monokai'
-    ]
     'disabledPackages': [
       'go-to-line'
       'symbols-view'
       'autocomplete'
+    ]
+    'themes': [
+      'seti-ui'
+      'monokai'
     ]
   'release-notes':
     'viewedVersion': '4155c53'
