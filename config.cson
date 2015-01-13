@@ -19,7 +19,7 @@
   'release-notes':
     'viewedVersion': '4155c53'
   'easy-motion':
-    'replaceCharacters': 'ASDFGQWERTYZXCVB12345'
+    'replaceCharacters': 'ASDFGHJKLQWERTYUIOPZXCVBNM1234567890'
   'exception-reporting':
     'userId': '40d54fc8-612b-82b2-372b-3474335a67e2'
   'welcome':
