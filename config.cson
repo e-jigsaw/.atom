@@ -1,30 +1,30 @@
-'*':
-  'editor':
-    'fontFamily': 'Monaco'
-    'fontSize': 18
-    'showInvisibles': true
-    'showIndentGuide': true
-    'autoIndentOnPaste': false
-    'invisibles': {}
-  'core':
-    'disabledPackages': [
-      'go-to-line'
-      'symbols-view'
-      'autocomplete'
+"*":
+  editor:
+    fontFamily: "Monaco"
+    fontSize: 18
+    showInvisibles: true
+    showIndentGuide: true
+    autoIndentOnPaste: false
+    invisibles: {}
+  core:
+    disabledPackages: [
+      "go-to-line"
+      "symbols-view"
+      "autocomplete"
     ]
-    'themes': [
-      'seti-ui'
-      'monokai'
+    themes: [
+      "seti-ui"
+      "monokai"
     ]
-  'release-notes':
-    'viewedVersion': '4155c53'
-  'easy-motion':
-    'replaceCharacters': 'ASDFGHJKLQWERTYUIOPZXCVBNM1234567890'
-  'exception-reporting':
-    'userId': '40d54fc8-612b-82b2-372b-3474335a67e2'
-  'welcome':
-    'showOnStartup': false
-  'atom-beautify':
-    '_analyticsUserId': '8bf78ce5-fd26-42e7-a9d9-92540f52f5c9'
-'metrics':
-  'userId': '244ca7290b482b2db55439c8cd71133e1ffc2fd9'
+  "release-notes":
+    viewedVersion: "4155c53"
+  "easy-motion":
+    replaceCharacters: "ASDFGHJKLQWERTYUIOPZXCVBNM1234567890"
+  "exception-reporting":
+    userId: "40d54fc8-612b-82b2-372b-3474335a67e2"
+  welcome:
+    showOnStartup: false
+  "atom-beautify":
+    _analyticsUserId: "8bf78ce5-fd26-42e7-a9d9-92540f52f5c9"
+metrics:
+  userId: "244ca7290b482b2db55439c8cd71133e1ffc2fd9"
