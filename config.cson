@@ -26,5 +26,5 @@
     showOnStartup: false
   "atom-beautify":
     _analyticsUserId: "8bf78ce5-fd26-42e7-a9d9-92540f52f5c9"
-metrics:
-  userId: "244ca7290b482b2db55439c8cd71133e1ffc2fd9"
+  linter: {}
+  "linter-coffeelint": {}
