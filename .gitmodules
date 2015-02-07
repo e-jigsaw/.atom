@@ -73,3 +73,6 @@
 [submodule "packages/autocomplete-snipetts"]
 	path = packages/autocomplete-snipetts
 	url = https://github.com/atom-community/autocomplete-snippets.git
+[submodule "packages/language-elm"]
+	path = packages/language-elm
+	url = https://github.com/edubkendo/atom-elm.git
