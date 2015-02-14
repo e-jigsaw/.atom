@@ -76,3 +76,6 @@
 [submodule "packages/language-elm"]
 	path = packages/language-elm
 	url = https://github.com/edubkendo/atom-elm.git
+[submodule "packages/language-vue-component"]
+	path = packages/language-vue-component
+	url = https://github.com/e-jigsaw/language-vue-component.git
