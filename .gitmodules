@@ -79,3 +79,6 @@
 [submodule "packages/language-vue-component"]
 	path = packages/language-vue-component
 	url = https://github.com/e-jigsaw/language-vue-component.git
+[submodule "packages/language-livescript"]
+	path = packages/language-livescript
+	url = https://github.com/yhsiang/language-livescript.git
