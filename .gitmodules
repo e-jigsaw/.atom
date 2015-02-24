@@ -21,7 +21,7 @@
 	url = https://github.com/jagregory/language-docker.git
 [submodule "packages/language-jade"]
 	path = packages/language-jade
-	url = https://github.com/devongovett/atom-jade.git
+	url = https://github.com/e-jigsaw/atom-jade.git
 [submodule "packages/linter"]
 	path = packages/linter
 	url = https://github.com/AtomLinter/Linter.git
@@ -70,6 +70,15 @@
 [submodule "packages/atom-alignment"]
 	path = packages/atom-alignment
 	url = https://github.com/Freyskeyd/atom-alignment.git
+[submodule "packages/autocomplete-snipetts"]
+	path = packages/autocomplete-snipetts
+	url = https://github.com/atom-community/autocomplete-snippets.git
 [submodule "packages/language-elm"]
 	path = packages/language-elm
 	url = https://github.com/edubkendo/atom-elm.git
+[submodule "packages/language-vue-component"]
+	path = packages/language-vue-component
+	url = https://github.com/e-jigsaw/language-vue-component.git
+[submodule "packages/language-livescript"]
+	path = packages/language-livescript
+	url = https://github.com/yhsiang/language-livescript.git
