@@ -28,3 +28,4 @@
     _analyticsUserId: "8bf78ce5-fd26-42e7-a9d9-92540f52f5c9"
   linter: {}
   "linter-coffeelint": {}
+  "autocomplete-plus": {}
