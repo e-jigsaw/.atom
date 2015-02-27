@@ -2,4 +2,5 @@ storage/
 .node-gyp
 compile-cache/
 .npm
+.apm
 
