@@ -171,6 +171,43 @@ atom-panel-container #status-bar-vim-mode {
   padding: 0;
 }
 
+atom-pane.pane {
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+}
+
+.tab-bar {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-flex-direction: column;
+  padding: 0;
+  border: 0;
+  background: #1B1C1D !important;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  height: 100%;
+  width: 200px;
+
+  &.list-inline > li:first-child {
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+
+  .tab {
+    max-width: none;
+    -webkit-flex: 0 0 auto;
+    margin: 0;
+    top: 0;
+    padding: 0 20px 0 10px;
+
+    &.active {
+      -webkit-flex: 0 0 auto;
+      width: auto;
+    }
+  }
+}
+
 .tab-bar .tab {
   border-bottom: 0;
   background-color: #357092;
@@ -216,38 +253,6 @@ atom-panel-container #status-bar-vim-mode {
   top: 13px;
 }
 
-atom-pane.pane {
-  -webkit-flex-direction: row;
-  -webkit-flex-wrap: wrap;
-}
-
-.tab-bar {
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-flex-direction: column;
-  padding: 0;
-  border: 0;
-  background: #1B1C1D !important;
-  position: absolute;
-  right: 0;
-  z-index: 1;
-  height: 100%;
-
-  &.list-inline > li:first-child {
-    padding-left: 10px;
-    padding-right: 30px;
-  }
-
-  .tab {
-    max-width: none;
-    -webkit-flex: 0 0 auto;
-    margin: 0;
-    top: 0;
-    padding: 0 20px 0 10px;
-
-    &.active {
-      -webkit-flex: 0 0 auto;
-      width: auto;
-    }
-  }
+.item-views {
+  margin-right: 200px;
 }
