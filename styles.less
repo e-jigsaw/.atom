@@ -222,22 +222,29 @@ atom-pane.pane {
 }
 
 .tab-bar {
-  height: auto;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-flex-direction: column;
   padding: 0;
-  background: #1B1C1D;
+  border: 0;
+  background: #1B1C1D !important;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  height: 100%;
+
   &.list-inline > li:first-child {
     padding-left: 10px;
     padding-right: 30px;
   }
+
   .tab {
     max-width: none;
     -webkit-flex: 0 0 auto;
     margin: 0;
     top: 0;
     padding: 0 20px 0 10px;
+
     &.active {
       -webkit-flex: 0 0 auto;
       width: auto;
