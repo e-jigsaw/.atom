@@ -61,19 +61,6 @@ key | description          | state
 `shift-a` | add folder     | tree-view
 `m` | move to pointed file | tree-view
 
-### git
-
-key        | description              | state
----------- | ------------------------ | ---
-`ctrl-g a` | git add this file        | command
-`ctrl-g c` | git commit               | command
-`ctrl-g shift-a` | git add all and commit | command
-`ctrl-g s` | git status               | command
-`ctrl-g d` | git diff                 | command
-`ctrl-g shift-d` | git diff all       | command
-`ctrl-g l` | git log                  | command
-`ctrl-g o` | open git-plus command palette | command
-
 ### script
 
 key       | description              | state
