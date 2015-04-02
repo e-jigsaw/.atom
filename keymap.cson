@@ -22,6 +22,7 @@
 
 '.platform-darwin .editor':
   'cmd-shift-c': 'unset!'
+  'cmd-r': 'window:reload'
 
 '.workspace':
   'cmd-shift-M' : 'markdown-preview:toggle'
@@ -46,7 +47,3 @@
   # easy motion
   'm'       : 'easy-motion:start'
   'shift-m' : 'easy-motion:start-reverse'
-
-  # script
-  'cmd-r'       : 'script:run'
-  'cmd-shift-r' : 'script:close-view'
