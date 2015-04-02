@@ -85,3 +85,6 @@
 [submodule "packages/linter-jshint"]
 	path = packages/linter-jshint
 	url = https://github.com/AtomLinter/linter-jshint.git
+[submodule "packages/linter-lsc"]
+	path = packages/linter-lsc
+	url = https://github.com/AtomLinter/linter-lsc.git
