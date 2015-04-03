@@ -1,6 +1,6 @@
-storage/
+storage
 .node-gyp
-compile-cache/
+compile-cache
 .npm
 .apm
-
+atom-shell
