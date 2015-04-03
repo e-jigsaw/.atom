@@ -81,7 +81,7 @@
 	url = https://github.com/e-jigsaw/language-vue-component.git
 [submodule "packages/language-livescript"]
 	path = packages/language-livescript
-	url = https://github.com/yhsiang/language-livescript.git
+	url = https://github.com/e-jigsaw/language-livescript.git
 [submodule "packages/linter-jshint"]
 	path = packages/linter-jshint
 	url = https://github.com/AtomLinter/linter-jshint.git
