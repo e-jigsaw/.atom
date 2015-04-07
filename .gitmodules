@@ -39,7 +39,7 @@
 	url = https://github.com/kevinsawicki/command-logger.git
 [submodule "packages/seti-ui"]
 	path = packages/seti-ui
-	url = https://github.com/jesseweed/seti-ui.git
+	url = https://github.com/e-jigsaw/seti-ui.git
 [submodule "packages/ghq"]
 	path = packages/ghq
 	url = https://github.com/e-jigsaw/atom-ghq.git
@@ -63,10 +63,10 @@
 	url = https://github.com/bigfive/atom-sublime-select.git
 [submodule "packages/language-haskell"]
 	path = packages/language-haskell
-	url = https://github.com/jroesch/language-haskell.git
+	url = https://github.com/e-jigsaw/language-haskell.git
 [submodule "packages/language-scala"]
 	path = packages/language-scala
-	url = https://github.com/jroesch/language-scala
+	url = https://github.com/e-jigsaw/language-scala
 [submodule "packages/atom-alignment"]
 	path = packages/atom-alignment
 	url = https://github.com/Freyskeyd/atom-alignment.git
@@ -75,7 +75,7 @@
 	url = https://github.com/atom-community/autocomplete-snippets.git
 [submodule "packages/language-elm"]
 	path = packages/language-elm
-	url = https://github.com/edubkendo/atom-elm.git
+	url = https://github.com/e-jigsaw/atom-elm.git
 [submodule "packages/language-vue-component"]
 	path = packages/language-vue-component
 	url = https://github.com/e-jigsaw/language-vue-component.git
