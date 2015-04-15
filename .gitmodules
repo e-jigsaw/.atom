@@ -91,3 +91,6 @@
 [submodule "packages/language-purescript"]
 	path = packages/language-purescript
 	url = https://github.com/e-jigsaw/atom-language-purescript.git
+[submodule "packages/language-lua"]
+	path = packages/language-lua
+	url = https://github.com/FireZenk/language-lua.git
