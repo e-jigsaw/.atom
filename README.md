@@ -52,6 +52,7 @@ key     | description              | state
 `cmd-.` | show keybinding resolver | *
 `cmd-,` | open setting pane        | *
 `:`     | command palette toggle   | command
+`cmd-b` | build                    | *
 
 ### tree-view
 
@@ -60,13 +61,6 @@ key | description          | state
 `a` | add file             | tree-view
 `shift-a` | add folder     | tree-view
 `m` | move to pointed file | tree-view
-
-### script
-
-key       | description              | state
---------- | ------------------------ | ---
-`cmd-r` | run script               | command
-`cmd-shift-r` | close script result pane | command
 
 ### pane
 
@@ -81,12 +75,6 @@ key              | description         | state
 `ctrl-p [`       | focus previous pane | *
 `ctrl-p ]`       | focus next pane     | *
 `cmd-t`          | focus tree-view     | *
-
-### switch window
-
-key         | description              | state
------------ | ------------------------ | ---
-`ctrl-space`| toggle ghq               | *
 
 ## install
 

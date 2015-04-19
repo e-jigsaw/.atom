@@ -19,6 +19,8 @@
 
 '.platform-darwin':
   'cmd-shift-c': 'unset!'
+  'cmd-b': 'unset!'
+  'cmd-b': 'build:trigger'
 
 '.platform-darwin .editor':
   'cmd-shift-c': 'unset!'

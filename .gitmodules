@@ -94,3 +94,6 @@
 [submodule "packages/language-lua"]
 	path = packages/language-lua
 	url = https://github.com/FireZenk/language-lua.git
+[submodule "packages/atom-build"]
+	path = packages/atom-build
+	url = https://github.com/noseglid/atom-build.git
