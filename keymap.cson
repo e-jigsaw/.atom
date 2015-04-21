@@ -45,7 +45,3 @@
   ':'       : 'command-palette:toggle'
   'shift-w' : 'editor:select-to-end-of-word'
   'shift-b' : 'editor:select-to-beginning-of-word'
-
-  # easy motion
-  'm'       : 'easy-motion:start'
-  'shift-m' : 'easy-motion:start-reverse'

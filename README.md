@@ -14,8 +14,6 @@ key | description | state
 `l` | move right  | command
 `w` | next word   | command
 `b` | back word   | command
-`m` | easy-motion | command
-`M` | easy-motion:reverse | command
 `g g`     | go to start line | command
 `shift-g` | go to end line   | command
 
