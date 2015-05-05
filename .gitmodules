@@ -66,7 +66,7 @@
 	url = https://github.com/e-jigsaw/language-scala
 [submodule "packages/atom-alignment"]
 	path = packages/atom-alignment
-	url = https://github.com/Freyskeyd/atom-alignment.git
+	url = https://github.com/e-jigsaw/atom-alignment.git
 [submodule "packages/autocomplete-snipetts"]
 	path = packages/autocomplete-snipetts
 	url = https://github.com/atom-community/autocomplete-snippets.git
