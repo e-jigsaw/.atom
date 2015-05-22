@@ -25,9 +25,6 @@
 [submodule "packages/monokai"]
 	path = packages/monokai
 	url = https://github.com/kevinsawicki/monokai.git
-[submodule "packages/coffee-compiler"]
-	path = packages/coffee-compiler
-	url = https://github.com/forabi/coffee-compiler.git
 [submodule "packages/autocomplete-paths"]
 	path = packages/autocomplete-paths
 	url = https://github.com/saschagehlich/autocomplete-paths.git
@@ -43,9 +40,6 @@
 [submodule "packages/git-plus"]
 	path = packages/git-plus
 	url = https://github.com/akonwi/git-plus.git
-[submodule "packages/linter-coffeelint"]
-	path = packages/linter-coffeelint
-	url = https://github.com/e-jigsaw/linter-coffeelint.git
 [submodule "packages/status-bar"]
 	path = packages/status-bar
 	url = https://github.com/e-jigsaw/status-bar.git
