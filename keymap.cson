@@ -22,11 +22,11 @@
   'cmd-b': 'unset!'
   'cmd-b': 'build:trigger'
 
-'.platform-darwin .editor':
+'.platform-darwin atom-text-editor':
   'cmd-shift-c': 'unset!'
   'cmd-r': 'window:reload'
 
-'.workspace':
+'atom-workspace':
   'cmd-shift-M' : 'markdown-preview:toggle'
   'cmd-t'       : 'tree-view:toggle-focus'
   'ctrl-space'  : 'ghq:toggle'
