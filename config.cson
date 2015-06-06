@@ -5,7 +5,8 @@
     showInvisibles: true
     showIndentGuide: true
     autoIndentOnPaste: false
-    invisibles: {}
+    invisibles:
+      {}
   core:
     disabledPackages: [
       "go-to-line"
@@ -18,15 +19,13 @@
     ]
   "release-notes":
     viewedVersion: "4155c53"
-  "easy-motion":
-    replaceCharacters: "ASDFGHJKLQWERTYUIOPZXCVBNM1234567890"
   "exception-reporting":
     userId: "40d54fc8-612b-82b2-372b-3474335a67e2"
   welcome:
     showOnStartup: false
   "atom-beautify":
     _analyticsUserId: "8bf78ce5-fd26-42e7-a9d9-92540f52f5c9"
-  linter: {}
-  "linter-coffeelint": {}
-  "autocomplete-plus": {}
-  "linter-lsc": {}
+  "easy-motion-redux":
+    replaceCharacters: "ASDFGHJKLQWERTYUIOPZXCVBNM1234567890"
+  linter:
+    {}
