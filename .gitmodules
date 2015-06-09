@@ -85,3 +85,6 @@
 [submodule "packages/atom-easy-motion-redux"]
 	path = packages/atom-easy-motion-redux
 	url = https://github.com/e-jigsaw/atom-easy-motion-redux.git
+[submodule "packages/language-erlang"]
+	path = packages/language-erlang
+	url = https://github.com/e-jigsaw/atom-language-erlang.git
