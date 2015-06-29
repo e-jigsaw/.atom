@@ -30,3 +30,7 @@
     ignoredLinterErrors: [
       "lsc"
     ]
+    showErrorTabFile: false
+    showErrorTabProject: false
+    underlineIssues: false
+    showErrorPanel: false
