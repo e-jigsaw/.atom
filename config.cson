@@ -5,8 +5,7 @@
     showInvisibles: true
     showIndentGuide: true
     autoIndentOnPaste: false
-    invisibles:
-      {}
+    invisibles: {}
   core:
     disabledPackages: [
       "go-to-line"
@@ -28,4 +27,6 @@
   "easy-motion-redux":
     replaceCharacters: "ASDFGHJKLQWERTYUIOPZXCVBNM1234567890"
   linter:
-    {}
+    ignoredLinterErrors: [
+      "lsc"
+    ]
