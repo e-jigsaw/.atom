@@ -88,6 +88,6 @@
 [submodule "packages/language-erlang"]
 	path = packages/language-erlang
 	url = https://github.com/e-jigsaw/atom-language-erlang.git
-[submodule "packages/atom-memolist-new"]
-	path = packages/atom-memolist-new
-	url = https://github.com/e-jigsaw/atom-memolist-new.git
+[submodule "packages/atom-junk"]
+	path = packages/atom-junk
+	url = https://github.com/e-jigsaw/atom-junk.git
