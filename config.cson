@@ -34,3 +34,5 @@
     showErrorTabProject: false
     underlineIssues: false
     showErrorPanel: false
+  "atom-memolist":
+    memo_dir_path: "~/Dropbox/.memolist"
