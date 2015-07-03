@@ -49,7 +49,7 @@ key     | description              | state
 ------- | ------------------------ | ---
 `cmd-.` | show keybinding resolver | *
 `cmd-,` | open setting pane        | *
-`:`     | command palette toggle   | command
+`space` | command palette toggle   | command
 `cmd-b` | build                    | *
 
 ### tree-view
