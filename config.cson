@@ -11,6 +11,7 @@
       "go-to-line"
       "symbols-view"
       "autocomplete"
+      "background-tips"
     ]
     themes: [
       "seti-ui"
@@ -36,3 +37,7 @@
     showErrorPanel: false
   junk:
     dirPath: "~/Dropbox/.junk"
+  "autocomplete-plus":
+    defaultProvider: "Fuzzy"
+    minimumWordLength: 1
+    autoActivationDelay: 10
