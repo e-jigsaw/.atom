@@ -94,3 +94,6 @@
 [submodule "packages/copy-filename"]
 	path = packages/copy-filename
 	url = https://github.com/e-jigsaw/copy-filename.git
+[submodule "packages/language-llvm"]
+	path = packages/language-llvm
+	url = https://github.com/e-jigsaw/language-llvm.git
