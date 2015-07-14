@@ -91,3 +91,6 @@
 [submodule "packages/atom-junk"]
 	path = packages/atom-junk
 	url = https://github.com/e-jigsaw/atom-junk.git
+[submodule "packages/copy-filename"]
+	path = packages/copy-filename
+	url = https://github.com/e-jigsaw/copy-filename.git
