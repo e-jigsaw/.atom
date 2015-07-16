@@ -36,7 +36,7 @@
 	url = https://github.com/e-jigsaw/atom-ghq.git
 [submodule "packages/git-plus"]
 	path = packages/git-plus
-	url = https://github.com/akonwi/git-plus.git
+	url = https://github.com/e-jigsaw/git-plus.git
 [submodule "packages/status-bar"]
 	path = packages/status-bar
 	url = https://github.com/e-jigsaw/status-bar.git
