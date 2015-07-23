@@ -41,3 +41,4 @@
     defaultProvider: "Fuzzy"
     minimumWordLength: 1
     autoActivationDelay: 10
+    confirmCompletion: "tab"

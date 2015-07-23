@@ -72,7 +72,7 @@ atom-panel-container #status-bar-vim-mode {
   }
 }
 
-.status-bar-vim-mode-command {
+.status-bar-vim-mode-normal {
   background-color: #4f99d3;
 
   &:after {
@@ -85,6 +85,24 @@ atom-panel-container #status-bar-vim-mode {
     position: absolute;
     border-color: rgba(0, 0, 0, 0);
     border-left-color: #4f99d3;
+    border-width: 11px;
+    margin-top: -11px;
+  }
+}
+
+.status-bar-vim-mode-visual {
+  background-color: #4fd38c;
+
+  &:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #4fd38c;
     border-width: 11px;
     margin-top: -11px;
   }
