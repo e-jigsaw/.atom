@@ -100,3 +100,6 @@
 [submodule "packages/command-palette"]
 	path = packages/command-palette
 	url = https://github.com/e-jigsaw/command-palette.git
+[submodule "packages/language-lisp"]
+	path = packages/language-lisp
+	url = https://github.com/e-jigsaw/language-lisp.git
