@@ -103,3 +103,6 @@
 [submodule "packages/language-lisp"]
 	path = packages/language-lisp
 	url = https://github.com/e-jigsaw/language-lisp.git
+[submodule "packages/language-rust"]
+	path = packages/language-rust
+	url = https://github.com/zargony/atom-language-rust.git
