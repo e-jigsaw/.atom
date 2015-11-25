@@ -13,5 +13,7 @@ installModule = (packages)->
       installModule packages
   else process.exit 0
 
-exec 'git submodule init', -> exec 'git submodule update', -> fs.readdir \packages, (err, packages)->
-  installModule packages.toString!.split \,
+<- exec 'git submodule init'
+<- exec 'git submodule update'
+err, packages <- fs.readdir \packages
+installModule packages.toString!.split \,
