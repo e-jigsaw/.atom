@@ -79,9 +79,6 @@
 [submodule "packages/language-lua"]
 	path = packages/language-lua
 	url = https://github.com/FireZenk/language-lua.git
-[submodule "packages/atom-build"]
-	path = packages/atom-build
-	url = https://github.com/e-jigsaw/atom-build.git
 [submodule "packages/atom-easy-motion-redux"]
 	path = packages/atom-easy-motion-redux
 	url = https://github.com/e-jigsaw/atom-easy-motion-redux.git
