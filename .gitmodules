@@ -43,9 +43,6 @@
 [submodule "packages/cut-line"]
 	path = packages/cut-line
 	url = https://github.com/tekkub/cut-line.git
-[submodule "packages/japanese-wrap"]
-	path = packages/japanese-wrap
-	url = https://github.com/raccy/japanese-wrap.git
 [submodule "packages/language-haskell"]
 	path = packages/language-haskell
 	url = https://github.com/e-jigsaw/language-haskell.git
