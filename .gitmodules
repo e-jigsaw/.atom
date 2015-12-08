@@ -100,3 +100,6 @@
 [submodule "packages/language-rust"]
 	path = packages/language-rust
 	url = https://github.com/zargony/atom-language-rust.git
+[submodule "packages/language-slim"]
+	path = packages/language-slim
+	url = https://github.com/slim-template/language-slim.git
