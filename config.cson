@@ -12,6 +12,7 @@
       "symbols-view"
       "autocomplete"
       "background-tips"
+      "linter-jshint"
     ]
     themes: [
       "seti-ui"
