@@ -35,7 +35,11 @@ atom-text-editor::shadow {
     background-color: #1e1e1e;
   }
 
-  .indent-guide {
+  .line .indent-guide:nth-child(odd) {
+    box-shadow: .5em 0 0 #ccc inset;
+  }
+
+  .line .indent-guide:nth-child(even) {
     box-shadow: .5em 0 0 #888 inset;
   }
 }
