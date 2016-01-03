@@ -42,7 +42,8 @@
   'ctrl-p l'       : 'window:focus-pane-on-right'
 
 '.vim-mode:not(.insert-mode)':
-  'space'       : 'command-palette:toggle'
+  'space'   : 'command-palette:toggle'
   'shift-w' : 'editor:select-to-end-of-word'
   'shift-b' : 'editor:select-to-beginning-of-word'
-  'm'       : 'easy-motion-redux:start'
+  'm'       : 'easy-motion-redux:words'
+  'M'       : 'easy-motion-redux:letter'
