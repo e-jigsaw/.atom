@@ -64,9 +64,6 @@
 [submodule "packages/language-livescript"]
 	path = packages/language-livescript
 	url = https://github.com/e-jigsaw/language-livescript.git
-[submodule "packages/linter-jshint"]
-	path = packages/linter-jshint
-	url = https://github.com/AtomLinter/linter-jshint.git
 [submodule "packages/linter-lsc"]
 	path = packages/linter-lsc
 	url = https://github.com/e-jigsaw/linter-lsc.git
