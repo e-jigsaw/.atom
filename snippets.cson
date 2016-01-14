@@ -17,3 +17,9 @@
   'console.log':
     'prefix': 'log'
     'body': 'console.log($0)'
+  'import':
+    'prefix': 'imp'
+    'body': 'import $0 from \'$1\''
+  'React.Component':
+    'prefix': 'comp'
+    'body': 'export default class $0 extends Component {\n  \n}\n'
