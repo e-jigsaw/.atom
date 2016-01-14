@@ -103,3 +103,6 @@
 [submodule "packages/linter-eslint"]
 	path = packages/linter-eslint
 	url = https://github.com/AtomLinter/linter-eslint.git
+[submodule "packages/atom-wakatime"]
+	path = packages/atom-wakatime
+	url = https://github.com/e-jigsaw/atom-wakatime.git
