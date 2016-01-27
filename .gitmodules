@@ -106,3 +106,6 @@
 [submodule "packages/atom-wakatime"]
 	path = packages/atom-wakatime
 	url = https://github.com/e-jigsaw/atom-wakatime.git
+[submodule "packages/language-javascript"]
+	path = packages/language-javascript
+	url = https://github.com/e-jigsaw/language-javascript.git
