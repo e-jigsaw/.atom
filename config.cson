@@ -1,45 +1,44 @@
 "*":
-  editor:
-    fontFamily: "Monaco"
-    fontSize: 18
-    showInvisibles: true
-    showIndentGuide: true
-    autoIndentOnPaste: false
-    invisibles: {}
+  "autocomplete-plus":
+    autoActivationDelay: 10
+    confirmCompletion: "tab"
+    defaultProvider: "Fuzzy"
+    minimumWordLength: 1
   core:
     disabledPackages: [
       "go-to-line"
       "symbols-view"
       "autocomplete"
       "background-tips"
-      "linter-jshint"
     ]
     themes: [
       "seti-ui"
       "monokai"
     ]
-  "release-notes":
-    viewedVersion: "4155c53"
-  "exception-reporting":
-    userId: "40d54fc8-612b-82b2-372b-3474335a67e2"
-  welcome:
-    showOnStartup: false
-  "atom-beautify":
-    _analyticsUserId: "8bf78ce5-fd26-42e7-a9d9-92540f52f5c9"
   "easy-motion-redux":
     replaceCharacters: "ASDFGHJKLQWERTYUIOPZXCVBNM1234567890"
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "Monaco"
+    fontSize: 18
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+  esa:
+    cacheDir: "~/Dropbox/.esacache"
+  "exception-reporting":
+    userId: "40d54fc8-612b-82b2-372b-3474335a67e2"
+  junk:
+    dirPath: "~/Dropbox/.junk"
   linter:
     ignoredLinterErrors: [
       "lsc"
     ]
+    showErrorPanel: false
     showErrorTabFile: false
     showErrorTabProject: false
     underlineIssues: false
-    showErrorPanel: false
-  junk:
-    dirPath: "~/Dropbox/.junk"
-  "autocomplete-plus":
-    defaultProvider: "Fuzzy"
-    minimumWordLength: 1
-    autoActivationDelay: 10
-    confirmCompletion: "tab"
+  "release-notes":
+    viewedVersion: "4155c53"
+  welcome:
+    showOnStartup: false
