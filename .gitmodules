@@ -109,3 +109,6 @@
 [submodule "packages/language-javascript"]
 	path = packages/language-javascript
 	url = https://github.com/e-jigsaw/language-javascript.git
+[submodule "packages/markdown-preview"]
+	path = packages/markdown-preview
+	url = git@github.com:e-jigsaw/markdown-preview.git
