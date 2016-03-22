@@ -22,4 +22,4 @@
     'body': 'import $0 from \'$1\''
   'React.Component':
     'prefix': 'comp'
-    'body': 'export default class $0 extends Component {\n  \n}\n'
+    'body': '/*eslint no-unused-vars:0*/\nimport React from \'react\'\n\nexport default () => {\n  return jade`\n    $0\n  `\n}\n'
