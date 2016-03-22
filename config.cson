@@ -28,6 +28,8 @@
     cacheDir: "~/Dropbox/.esacache"
   "exception-reporting":
     userId: "40d54fc8-612b-82b2-372b-3474335a67e2"
+  "git-plus":
+    splitPane: "Down"
   junk:
     dirPath: "~/Dropbox/.junk"
   linter:
@@ -38,7 +40,10 @@
     showErrorTabFile: false
     showErrorTabProject: false
     underlineIssues: false
+  "markdown-preview":
+    openPreviewInSplitPaneDirection: "down"
   "release-notes":
     viewedVersion: "4155c53"
+  "tree-view": {}
   welcome:
     showOnStartup: false
