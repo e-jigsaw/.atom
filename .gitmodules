@@ -112,3 +112,6 @@
 [submodule "packages/markdown-preview"]
 	path = packages/markdown-preview
 	url = git@github.com:e-jigsaw/markdown-preview.git
+[submodule "packages/douglas"]
+	path = packages/douglas
+	url = git@github.com:e-jigsaw/douglas.git
