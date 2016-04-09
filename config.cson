@@ -5,6 +5,8 @@
     defaultProvider: "Fuzzy"
     minimumWordLength: 1
   core:
+    allowPendingPaneItems: false
+    closeEmptyWindows: false
     disabledPackages: [
       "go-to-line"
       "symbols-view"
@@ -44,6 +46,7 @@
     openPreviewInSplitPaneDirection: "down"
   "release-notes":
     viewedVersion: "4155c53"
+  tabs: {}
   "tree-view": {}
   welcome:
     showOnStartup: false
