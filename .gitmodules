@@ -115,3 +115,6 @@
 [submodule "packages/douglas"]
 	path = packages/douglas
 	url = git@github.com:e-jigsaw/douglas.git
+[submodule "packages/tabs"]
+	path = packages/tabs
+	url = git@github.com:e-jigsaw/tabs.git
