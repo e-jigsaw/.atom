@@ -57,18 +57,6 @@ atom-text-editor.mini.is-focused {
   color: #fff;
 }
 
-.project-find atom-text-editor[mini], .find-and-replace atom-text-editor[mini], .project-find atom-text-editor[mini]::shadow, .find-and-replace atom-text-editor[mini]::shadow {
-  background: #333;
-}
-
-.project-find atom-text-editor[mini] .text.plain, .find-and-replace atom-text-editor[mini] .text.plain, .project-find atom-text-editor[mini]::shadow .text.plain, .find-and-replace atom-text-editor[mini]::shadow .text.plain {
-  color: #fff;
-}
-
-.project-find atom-text-editor[mini] .lines .cursors .cursor, .find-and-replace atom-text-editor[mini] .lines .cursors .cursor, .project-find atom-text-editor[mini]::shadow .lines .cursors .cursor, .find-and-replace atom-text-editor[mini]::shadow .lines .cursors .cursor {
-  border-color: #fff;
-}
-
 atom-panel-container #status-bar-vim-mode {
   color: #FFF;
   position: relative;
@@ -246,54 +234,49 @@ atom-pane {
   }
 }
 
-atom-workspace-axis.vertical .tab-bar {
-  height: 100%;
-  padding: 0;
-}
-
-atom-workspace-axis.vertical .tab-bar .tab.active {
-  height: 36px;
-  background-color: #42adf5;
+.tab-bar .tab {
   border-bottom: 0;
-  font-size: 16px;
-  padding: 0 10px;
-  height: 32px;
-}
-
-atom-workspace-axis.vertical .tab-bar .tab {
-  height: 36px;
   background-color: #357092;
-  border-bottom: 0;
-  color: #fff;
+  height: 26px;
+  line-height: 34px;
   font-size: 16px;
-  padding: 0 10px;
-  height: 32px;
-}
 
-atom-workspace-axis.vertical .tab-bar .tab > .title {
-  position: absolute;
-  top: 0;
-}
-
-atom-workspace-axis.vertical .tab-bar .close-icon {
-  top: 2px;
-}
-
-atom-workspace-axis.vertical .tab-bar .tab.modified:not(:hover) .close-icon {
-  top: 15px;
-}
-
-atom-workspace-axis.vertical .tab-bar .tab.modified {
-  background-color: rgba(255, 0, 0, 0.69);
-}
-
-atom-panel-container .project-root > .header {
-  height: 32px;
-
-  .name {
-    position: absolute;
-    top: 0;
+  &:before {
+    border-bottom: 0;
+    background-color: #357092;
+    height: 26px;
   }
+}
+
+.tab-bar .tab.active {
+  border-bottom: 0;
+  background-color: #42adf5;
+  height: 26px;
+  line-height: 34px;
+  color: #FFFFFF;
+
+  &:before {
+    border-bottom: 0;
+    background-color: #4f99d3;
+    height: 26px;
+  }
+}
+
+.tab-bar .tab.active .close-icon, .tab-bar .tab .close-icon {
+  line-height: 26px;
+}
+
+.tab-bar .tab.active .close-icon {
+  color: #fff;
+}
+
+.tab-bar .tab.modified {
+  background-color: #a80000;
+}
+
+.tab-bar .tab.modified:not(:hover) .close-icon {
+  border: 2px solid #fff;
+  top: 13px;
 }
 
 .item-views {
