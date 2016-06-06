@@ -118,3 +118,6 @@
 [submodule "packages/tabs"]
 	path = packages/tabs
 	url = git@github.com:e-jigsaw/tabs.git
+[submodule "packages/linter-flow"]
+	path = packages/linter-flow
+	url = git@github.com:AtomLinter/linter-flow.git
