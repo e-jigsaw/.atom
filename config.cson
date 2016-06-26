@@ -48,5 +48,9 @@
     viewedVersion: "4155c53"
   tabs: {}
   "tree-view": {}
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1466870761
   welcome:
     showOnStartup: false
