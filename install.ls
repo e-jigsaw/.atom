@@ -1,19 +1,19 @@
 require! {
-  fs
-  child_process: {exec}
+  fs: {readdir-sync}
+  child_process: {exec-sync}
 }
 
-installModule = (packages)->
+install-modules = (packages)->
   if packages.length > 0
     target = packages.shift!
     process.chdir "#{__dirname}/packages/#{target}"
     console.log "installing #{target}..."
-    exec 'npm install', (err, stdo, stde)->
-      console.log stdo
-      installModule packages
+    stdo = exec-sync 'apm install', (err, stdo, stde)->
+    console.log stdo
+    install-modules packages
   else process.exit 0
 
-<- exec 'git submodule init'
-<- exec 'git submodule update'
-err, packages <- fs.readdir \packages
-installModule packages.toString!.split \,
+exec-sync 'git submodule init'
+exec-sync 'git submodule update'
+packages = readdir-sync \packages
+install-modules packages.toString!.split \,
