@@ -121,3 +121,6 @@
 [submodule "packages/linter-flow"]
 	path = packages/linter-flow
 	url = git@github.com:AtomLinter/linter-flow.git
+[submodule "packages/sort-lines"]
+	path = packages/sort-lines
+	url = git@github.com:e-jigsaw/sort-lines.git
