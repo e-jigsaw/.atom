@@ -127,3 +127,6 @@
 [submodule "packages/language-pug"]
 	path = packages/language-pug
 	url = git@github.com:genoma/language-pug.git
+[submodule "packages/language-jsx"]
+	path = packages/language-jsx
+	url = git@github.com:subtleGradient/language-javascript-jsx.git
