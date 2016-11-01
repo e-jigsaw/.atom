@@ -130,3 +130,6 @@
 [submodule "packages/language-jsx"]
 	path = packages/language-jsx
 	url = git@github.com:subtleGradient/language-javascript-jsx.git
+[submodule "packages/autocomplete-modules"]
+	path = packages/autocomplete-modules
+	url = git@github.com:e-jigsaw/atom-autocomplete-modules.git
