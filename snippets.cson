@@ -17,6 +17,9 @@
   'console.log':
     'prefix': 'log'
     'body': 'console.log($0)'
+  'console.warn':
+    'prefix': 'warn'
+    'body': 'console.warn($0)'
   'import':
     'prefix': 'imp'
     'body': 'import $0 from \'$1\''
