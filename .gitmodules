@@ -64,9 +64,6 @@
 [submodule "packages/language-livescript"]
 	path = packages/language-livescript
 	url = https://github.com/e-jigsaw/language-livescript.git
-[submodule "packages/linter-lsc"]
-	path = packages/linter-lsc
-	url = https://github.com/e-jigsaw/linter-lsc.git
 [submodule "packages/language-purescript"]
 	path = packages/language-purescript
 	url = https://github.com/e-jigsaw/atom-language-purescript.git
@@ -118,9 +115,6 @@
 [submodule "packages/tabs"]
 	path = packages/tabs
 	url = git@github.com:e-jigsaw/tabs.git
-[submodule "packages/linter-flow"]
-	path = packages/linter-flow
-	url = git@github.com:AtomLinter/linter-flow.git
 [submodule "packages/sort-lines"]
 	path = packages/sort-lines
 	url = git@github.com:e-jigsaw/sort-lines.git
