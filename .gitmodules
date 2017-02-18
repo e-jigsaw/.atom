@@ -1,15 +1,9 @@
 [submodule "packages/vim-mode"]
 	path = packages/vim-mode
 	url = https://github.com/e-jigsaw/vim-mode.git
-[submodule "packages/script"]
-	path = packages/script
-	url = https://github.com/rgbkrk/atom-script.git
 [submodule "packages/language-stylus"]
 	path = packages/language-stylus
 	url = https://github.com/matthojo/language-stylus.git
-[submodule "packages/color-picker"]
-	path = packages/color-picker
-	url = https://github.com/thomaslindstrom/color-picker
 [submodule "packages/language-docker"]
 	path = packages/language-docker
 	url = https://github.com/jagregory/language-docker.git
@@ -31,18 +25,9 @@
 [submodule "packages/seti-ui"]
 	path = packages/seti-ui
 	url = https://github.com/e-jigsaw/seti-ui.git
-[submodule "packages/ghq"]
-	path = packages/ghq
-	url = https://github.com/e-jigsaw/atom-ghq.git
-[submodule "packages/git-plus"]
-	path = packages/git-plus
-	url = https://github.com/e-jigsaw/git-plus.git
 [submodule "packages/status-bar"]
 	path = packages/status-bar
 	url = https://github.com/e-jigsaw/status-bar.git
-[submodule "packages/cut-line"]
-	path = packages/cut-line
-	url = https://github.com/tekkub/cut-line.git
 [submodule "packages/language-haskell"]
 	path = packages/language-haskell
 	url = https://github.com/e-jigsaw/language-haskell.git
@@ -58,12 +43,6 @@
 [submodule "packages/language-elm"]
 	path = packages/language-elm
 	url = https://github.com/e-jigsaw/atom-elm.git
-[submodule "packages/language-vue-component"]
-	path = packages/language-vue-component
-	url = https://github.com/e-jigsaw/language-vue-component.git
-[submodule "packages/language-livescript"]
-	path = packages/language-livescript
-	url = https://github.com/e-jigsaw/language-livescript.git
 [submodule "packages/language-purescript"]
 	path = packages/language-purescript
 	url = https://github.com/e-jigsaw/atom-language-purescript.git
