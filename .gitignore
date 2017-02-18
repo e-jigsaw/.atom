@@ -4,3 +4,4 @@ compile-cache
 .npm
 .apm
 atom-shell
+blob-store
