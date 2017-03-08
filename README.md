@@ -4,6 +4,12 @@ This is my `.atom` directory control repo.
 
 ## cheatsheet
 
+### meta
+
+key | description | state
+--- | ----------- | -----
+`spc` | open command palette | command
+
 ### move cursor
 
 key | description | state
