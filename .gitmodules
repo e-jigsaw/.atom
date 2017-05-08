@@ -106,3 +106,6 @@
 [submodule "packages/autocomplete-modules"]
 	path = packages/autocomplete-modules
 	url = git@github.com:e-jigsaw/atom-autocomplete-modules.git
+[submodule "packages/prettier"]
+	path = packages/prettier
+	url = git@github.com:prettier/prettier-atom.git
