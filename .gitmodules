@@ -52,15 +52,9 @@
 [submodule "packages/atom-easy-motion-redux"]
 	path = packages/atom-easy-motion-redux
 	url = https://github.com/e-jigsaw/atom-easy-motion-redux.git
-[submodule "packages/language-erlang"]
-	path = packages/language-erlang
-	url = https://github.com/e-jigsaw/atom-language-erlang.git
 [submodule "packages/atom-junk"]
 	path = packages/atom-junk
 	url = https://github.com/e-jigsaw/atom-junk.git
-[submodule "packages/copy-filename"]
-	path = packages/copy-filename
-	url = https://github.com/e-jigsaw/copy-filename.git
 [submodule "packages/language-llvm"]
 	path = packages/language-llvm
 	url = https://github.com/e-jigsaw/language-llvm.git
