@@ -85,9 +85,6 @@
 [submodule "packages/douglas"]
 	path = packages/douglas
 	url = git@github.com:e-jigsaw/douglas.git
-[submodule "packages/tabs"]
-	path = packages/tabs
-	url = git@github.com:e-jigsaw/tabs.git
 [submodule "packages/sort-lines"]
 	path = packages/sort-lines
 	url = git@github.com:e-jigsaw/sort-lines.git
@@ -103,3 +100,6 @@
 [submodule "packages/prettier"]
 	path = packages/prettier
 	url = git@github.com:prettier/prettier-atom.git
+[submodule "packages/linter-sass-lint"]
+	path = packages/linter-sass-lint
+	url = git@github.com:e-jigsaw/linter-sass-lint.git
