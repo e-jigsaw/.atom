@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "dot-atom",
+  "scripts": {
+    "backup": "apm list --installed --bare > ~/.atom/atom-packages.txt",
+    "postinstall": "apm install --packages-file ~/.atom/atom-packages.txt"
+  }
+}
