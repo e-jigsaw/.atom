@@ -1,4 +1,7 @@
 "*":
+  "autocomplete-modules":
+    babelPluginModuleResolver: true
+    includeExtension: true
   "autocomplete-plus":
     autoActivationDelay: 10
     confirmCompletion: "tab"
@@ -7,18 +10,12 @@
   core:
     allowPendingPaneItems: false
     closeEmptyWindows: false
-    disabledPackages: [
-      "go-to-line"
-      "symbols-view"
-      "autocomplete"
-      "background-tips"
-    ]
+    telemetryConsent: "no"
     themes: [
       "seti-ui"
       "monokai"
     ]
-  "easy-motion-redux":
-    replaceCharacters: "ASDFGHJKLQWERTYUIOPZXCVBNM1234567890"
+    titleBar: "hidden"
   editor:
     autoIndentOnPaste: false
     fontFamily: "Monaco"
@@ -26,31 +23,17 @@
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
-  esa:
-    cacheDir: "~/Dropbox/.esacache"
   "exception-reporting":
     userId: "40d54fc8-612b-82b2-372b-3474335a67e2"
-  "git-plus":
-    splitPane: "Down"
-  junk:
-    dirPath: "~/Dropbox/.junk"
-  linter:
-    ignoredLinterErrors: [
-      "lsc"
-    ]
-    showErrorPanel: false
-    showErrorTabFile: false
-    showErrorTabProject: false
-    underlineIssues: false
-  "markdown-preview":
-    openPreviewInSplitPaneDirection: "down"
   "release-notes":
     viewedVersion: "4155c53"
-  tabs: {}
-  "tree-view": {}
+  "seti-ui":
+    compactView: true
+    font: "Default Atom Font"
+    themeColor: "Orange"
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1466870761
+    lastInit: 1495136069
   welcome:
     showOnStartup: false
