@@ -1,19 +1,16 @@
-Stylus@3.1.1
-autocomplete-modules@1.7.3
+autocomplete-modules@1.8.0
 autocomplete-paths@2.12.1
 busy-signal@1.4.3
 intentions@1.1.5
 language-docker@1.1.8
-language-javascript@0.127.6
 language-pug@0.0.21
-language-slim@0.6.0
 linter@2.2.0
 linter-eslint@8.4.0
 linter-sass-lint@1.8.3
-linter-stylelint@4.0.2
+linter-stylelint@4.2.0
 linter-ui-default@1.6.10
 monokai@0.24.0
 seti-ui@1.9.0
 vim-mode@0.66.0
-wakatime@7.0.3
+wakatime@7.0.4
 
