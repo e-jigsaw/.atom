@@ -5,7 +5,6 @@
   "autocomplete-plus":
     autoActivationDelay: 10
     confirmCompletion: "tab"
-    defaultProvider: "Fuzzy"
     minimumWordLength: 1
   core:
     allowPendingPaneItems: false
